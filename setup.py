@@ -4,6 +4,7 @@
 ##############################################################################
 #
 #    Copyright (C) Gennady Trafimenkov, 2011
+#    2023-2024 by Günter Bailey (@Brawn1)
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Lesser General Public License as published by
@@ -41,10 +42,10 @@ if __name__ == '__main__':
     long_description = open(readmePath, "rt").read()
 
     setup(name='crc16',
-          version='0.1.1',
+          version='0.1.2',
           description='Library for calculating CRC16',
-          author='Gennady Trafimenkov',
-          author_email='gennady.trafimenkov@gmail.com',
+          author='Günter Bailey',
+          author_email='g.bailey@2getonline.com',
           url='http://code.google.com/p/pycrc16',
           license='LGPL',
           keywords=['CRC16'],
@@ -56,35 +57,42 @@ if __name__ == '__main__':
           # get classifiers from here
           # http://pypi.python.org/pypi?:action=list_classifiers
           classifiers = [
-            # "Development Status :: 1 - Planning",
-            # "Development Status :: 2 - Pre-Alpha",
-            "Development Status :: 3 - Alpha",
-            # "Development Status :: 4 - Beta",
-            # "Development Status :: 5 - Production/Stable",
-            # "Development Status :: 6 - Mature",
-            # "Development Status :: 7 - Inactive",
+              # "Development Status :: 1 - Planning",
+              # "Development Status :: 2 - Pre-Alpha",
+              # "Development Status :: 3 - Alpha",
+              "Development Status :: 4 - Beta",
+              # "Development Status :: 5 - Production/Stable",
+              # "Development Status :: 6 - Mature",
+              # "Development Status :: 7 - Inactive",
 
-            # "Environment :: Other Environment",
+              # "Environment :: Other Environment",
 
-            "Intended Audience :: Developers",
-            "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)",
+              "Intended Audience :: Developers",
+              "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)",
 
-            # "Operating System :: OS Independent",
-            "Operating System :: Microsoft :: Windows",
-            "Operating System :: POSIX",
+              # "Operating System :: OS Independent",
+              "Operating System :: Microsoft :: Windows",
+              "Operating System :: POSIX",
 
-            "Topic :: Software Development :: Libraries :: Python Modules",
+              "Topic :: Software Development :: Libraries :: Python Modules",
 
-            # "Programming Language :: C",
-            "Programming Language :: Python",
-            "Programming Language :: Python :: 2",
-            "Programming Language :: Python :: 2.4",
-            "Programming Language :: Python :: 2.5",
-            "Programming Language :: Python :: 2.6",
-            "Programming Language :: Python :: 2.7",
-            "Programming Language :: Python :: 3",
-            "Programming Language :: Python :: 3.1",
-            "Programming Language :: Python :: 3.2",
+              # "Programming Language :: C",
+              "Programming Language :: Python",
+              "Programming Language :: Python :: 2",
+              "Programming Language :: Python :: 2.4",
+              "Programming Language :: Python :: 2.5",
+              "Programming Language :: Python :: 2.6",
+              "Programming Language :: Python :: 2.7",
+              "Programming Language :: Python :: 3",
+              "Programming Language :: Python :: 3.1",
+              "Programming Language :: Python :: 3.2",
+              "Programming Language :: Python :: 3.5",
+              "Programming Language :: Python :: 3.6",
+              "Programming Language :: Python :: 3.7",
+              "Programming Language :: Python :: 3.8",
+              "Programming Language :: Python :: 3.9",
+              "Programming Language :: Python :: 3.10",
+              "Programming Language :: Python :: 3.11",
             ],
           long_description=long_description
           )

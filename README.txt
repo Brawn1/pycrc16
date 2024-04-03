@@ -11,9 +11,9 @@ If you want to know more about CRC,
 http://wikipedia.org/wiki/Cyclic_redundancy_check is a good place to start.
 
 If you want other variants of CRC16 supported, please make a request at
-http://code.google.com/p/pycrc16/issues
+https://github.com/Brawn1/pycrc16/issues
 
-Source codes are hosted at https://github.com/gennady/pycrc16
+Source codes are hosted at https://github.com/Brawn1/pycrc16
 If you want to contribute to this library, create a fork, make you changes
 and then create a pull request.  Any help is appreciated.
 
@@ -21,22 +21,21 @@ and then create a pull request.  Any help is appreciated.
 Installation
 ------------
 
-On Windows you can use precompiled binaries which can be found at
-http://code.google.com/p/pycrc16/downloads
+On Windows you can use precompiled binaries which can be found on the package side.
 
 On Linux and other operation systems you should compile the library from
 the source codes.  To do this on Linux use following steps:
 
-* download source tarball, e.g. crc16-0.1.1.tar.gz,
-  from http://code.google.com/p/pycrc16/downloads
+* download source tarball, e.g. crc16-0.1.2.tar.gz,
+  from https://github.com/Brawn1/pycrc16/tags
 
 * extract it with command::
 
-    tar -xzf crc16-0.1.1.tar.gz
+    tar -xzf crc16-0.1.2.tar.gz
 
 * compile and install the library::
 
-    cd crc16-0.1.1
+    cd crc16-0.1.2
     python setup.py build
     sudo python setup.py install
 
