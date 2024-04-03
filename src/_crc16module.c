@@ -3,6 +3,7 @@
 /* **************************************************************************
  *
  *   Copyright (C) Gennady Trafimenkov, 2011
+ *   2023 - now, Günter Bailey (@Brawn1)
  *
  *   This program is free software: you can redistribute it and/or modify
  *   it under the terms of the GNU Lesser General Public License as published by
@@ -18,6 +19,9 @@
  *   along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  * **************************************************************************/
+
+/* Make "s#" use Py_ssize_t instead of int. */
+#define PY_SSIZE_T_CLEAN
 
 #include <Python.h>
 
@@ -91,7 +95,7 @@ static PyObject *
 _crc16_crc16xmodem(PyObject *self, PyObject *args)
 {
     const unsigned char* data;
-    int data_len;
+    Py_ssize_t data_len;
     unsigned int crc = 0;
     unsigned int result;
 
